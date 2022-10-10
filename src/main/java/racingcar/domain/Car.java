@@ -7,4 +7,17 @@ public class Car {
         this.carName = new CarName(carName);
         carDistance = new CarDistance();
     }
+
+    public int getCarDistance() {
+        return carDistance.getDistance();
+    }
+
+    public String getCarName() {
+        return carName.getCarName();
+    }
+
+
+    public void nextStep(){
+        carDistance.nextStep();
+    }
 }

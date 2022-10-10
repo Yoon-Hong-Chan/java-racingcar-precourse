@@ -35,4 +35,9 @@ public class GameView {
         return builder.toString();
     }
 
+    public void printCarWinner(Cars cars){
+        if(cars != null)
+            System.out.println("최종 우승자 : "+String.join(",",cars.getWinnerName()));
+    }
+
 }
