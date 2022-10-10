@@ -10,9 +10,11 @@
   + Exception이 아닌 IllegalArgumentException, IllegalStateException 등과 같은 명확한 유형을 처리한다.
 
 ##구현 목록 정리
-+ 각 자동차에 이름 부여, 자동차 이름 출력
++ 각 자동차에 이름 부여 
   + 자동차 이름은 쉼표(,) 구분
   + 자동차 이름 5자 이하 가능
+
++ 자동차 이름 출력
 
 + 사용자는 몇번 이동할 것인지 입력
 
